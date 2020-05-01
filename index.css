@@ -1,0 +1,17 @@
+.square-calc {
+	width: 360px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #808080;
+	background: #E8E8E8;
+}
+
+.label {
+	display: inline-block;
+	width: 150px;
+	background: 1px solid red;
+}
+.textbox{
+	width: 100px;
+	border: 1px solid blue;
+}

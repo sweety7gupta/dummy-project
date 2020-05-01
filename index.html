@@ -1,13 +1,22 @@
 <html>
 	<head>
 		<title>Find Square</title>
+		<link rel="stylesheet" href="index.css" />
 	</head>
 
 	<body>
 		<form>
-			<label>Input For Square</label>
-			<input type="text" id="txtInput"/><br>
-			<input type="button" id="btnSquare"  value="Submit" >
+			<div class="square-calc">
+				<div>
+					<label class="label" for="txtInput">Input For Square: </label>
+					<input type="text" class="textbox" id="txtInput"/>
+					<input type="button" id="btnSquare"  value="Submit" ><br>
+				</div>
+				<div>
+					<label class="label"><b>Result: </b></label>
+					<label id="lblMsg" ></label>
+				</div>
+			</div>
 		</form>
 		<script type="text/javascript" src="index.js"></script>
 	</body>

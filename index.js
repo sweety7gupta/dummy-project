@@ -7,7 +7,7 @@
 
 	function getAlert() {
 		var num = txtInput.value;
-
-		alert('Square Value is: '+  num * num);
+		document.getElementById('lblMsg').innerText=  num * num;
+		//alert('Square Value is: '+  num * num);
 	}
 })(); // iife - immedialtely invoked fucntion expression
