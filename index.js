@@ -25,7 +25,7 @@
 	function getFibonacciSeries() {
 		var noOfTerms = txtFibonacciInput.value;
 
-		if(isNaN(noOfTerms) || noOfTerms == 0) {
+		if(isNaN(noOfTerms) || noOfTerms === 0) {
 			lblfbMsg.innerText="Invalid Input!!!";
 		}
 		else {
