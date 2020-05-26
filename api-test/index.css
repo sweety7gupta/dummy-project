@@ -1,0 +1,26 @@
+.section{
+	width: 600px;
+	height: 360px;
+	border: 1px solid grey;
+	margin: 5px;
+}
+
+.btn{
+	width: 100px;
+	border: 1px solid black;
+	font-size: large;
+	margin: 10px;
+}
+
+.data{
+	border: 1px solid grey;
+	width: flex;
+	padding: 10px;
+}
+
+.fetch{
+	list-style-type: circle;
+	font-size: xx-large;
+	border: 1px solid grey;
+}
+
