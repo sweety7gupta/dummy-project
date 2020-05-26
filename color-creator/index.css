@@ -1,0 +1,32 @@
+.body {
+	display: flex;
+}
+
+.section {
+	border: 1px solid grey;
+	padding: 20px;
+	width: 400px;
+	height: 460px;
+	margin: 10px;
+}
+
+.box {
+	width: 360px;
+	height: 360px;
+	background: white;
+	box-sizing: border-box;
+	border: 10px solid black;
+}
+
+.btn {
+	margin: 20px 0;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.textbox {
+	width: 50px;
+	height: 30px;
+	margin: 10px;
+	padding: 1px;
+}

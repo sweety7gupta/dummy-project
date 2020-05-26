@@ -45,4 +45,11 @@
 			
 		}
 	}
+
+	function isPrime() {
+		var a;
+		//
+		//
+		//
+	}
 })(); // iife - immedialtely invoked fucntion expression

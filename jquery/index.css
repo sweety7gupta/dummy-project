@@ -1,0 +1,35 @@
+body {
+	display: flex;
+}
+
+.section {
+	border: 1px solid grey;
+	padding: 20px;
+	width: 200px;
+	height: 300px;
+	margin: 10px;
+}
+
+
+.box {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	box-sizing: border-box;
+}
+
+.btn {
+	margin: 20px 0;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.danger {
+	border: 10px solid grey;
+	background-color: red;
+}
+
+.safe {
+border: 10px solid grey;
+background-color: green;
+}
